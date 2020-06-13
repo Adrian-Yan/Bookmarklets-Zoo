@@ -2,6 +2,8 @@
 
 This is fancy collection of various bookmarklets. And also teach you how to write your own bookmarklet.
 
+Currently, I am working on a browser add-in that can arrange and collect the bookmarklet you favored. It also provides a graphic interface to create bookmarklets easily. If you like this, please light up a star🌟 for this repo. Moreover, if you have some ideas on bookmarklets, or you find error & typo in this repo, feel free to put forwards an issue. Thanks for your contribution!
+
 ## Bookmarklet
 
 What is a bookmarklet?
@@ -15,3 +17,11 @@ It is really simple to deploy a bookmarklet. If you want to put it on your own w
 <a href="javascript:alert('give my repo a star!');">xxx</a>
 ```
 For daily user, you can drag the link in the browser's address line, or copy the link into your favorites. Anytime you want to use it, just give it a click.
+
+### Restrictions
+In fact, bookmarklets can be treated as URLs, just in different forms. So those restrictions on the URLs are also valid on bookmarklets.
+
+- The length of it are limited. Some old browser like IE can only support strings of around 2,000 characters, while modern browser like Chrome support strings of around 8,000 characters. The limited length affects your code.
+- Just like URLs, bookmarklet should be in only one line. In addition, some browsers don't support space between character. So, your code should be something like `yourcodenospace`.
+
+Good news is, we have some tricks to fix these problems elegantly.
