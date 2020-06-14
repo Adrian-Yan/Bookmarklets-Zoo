@@ -1,5 +1,7 @@
 # Bookmarklets-Zoo
 
+[中文版](https://github.com/Adrian-Yan/Bookmarklets-Zoo/blob/master/README-zh-CN.md)
+
 This is fancy collection of various bookmarklets. And also teach you how to write your own bookmarklet.
 
 Currently, I am working on a browser add-in that can arrange and collect the bookmarklet you favored. It also provides a graphic interface to create bookmarklets easily. If you like this, please light up a star🌟 for this repo. Moreover, if you have some ideas on bookmarklets, or you find error & typo in this repo, feel free to put forwards an issue. Thanks for your contribution!
